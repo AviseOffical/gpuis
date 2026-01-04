@@ -1,0 +1,13 @@
+[workspace]
+members = [
+    "gpui",
+    "gpui_macros",
+    "gpui_tokio"
+]
+resolver = "2"
+
+[workspace.package]
+edition = "2021"
+version = "0.1.0"
+name = "gpuis-workspace"
+authors = ["Avise"]
